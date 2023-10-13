@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+    display: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: rgb(44,44,44);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.icon img{
+    width: 40px;
+    margin-left: -205px;
+}
+.search input{
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: -360px;
+}
+.n-1{
+    font-size: 20px;
+    margin-right: 420px;   
+}
+.n-1 li{
+    list-style: none;
+    display: inline-flex;
+    padding-right: 30px;
+}
+.n-1 li a{
+    color: rgb(185, 185, 185);
+}

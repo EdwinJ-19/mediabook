@@ -6,6 +6,7 @@ body{
     background-color: #dfe3ee;
 }
 .right.box{
+    font-family: 'Titillium Web', sans-serif;
     background-color: white;
     text-align: center;
     border: 2px outset white;
@@ -35,14 +36,14 @@ body{
     margin-bottom: 10px;
 }
 .right.box .l-1 .login{
-    border: 1px solid rgb(18, 18, 18);
+    border: 0px solid rgb(18, 18, 18);
     border-radius: 2px;
     width: 307px;
     padding: 8px;
     margin: auto;
     text-decoration: none;
     color: white;
-    background-color: #3b5998;
+    background-color: #1877f2;
     transition: transform 0.5s ease-in-out;
 }
 .right.box .login:hover{
@@ -52,15 +53,30 @@ body{
     text-decoration: none;
     transition: transform 0.5s ease-in-out;
 }
+.right.box .Forgot::after{
+    content: "";
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1877f2;
+    transition: all 0.5s ease-in-out;
+}
+.right.box .Forgot:hover::after{
+    width: 35%;
+}
 .right.box .Forgot:hover{
-    transform: translateY(-3px);
+    color: red;
+    transition: all 0.5s ease-in-out;
 }
 .right.box hr{
     margin: auto;
     width: 250px;
 }
 .right.box .create{
-    border: 1px solid rgb(18, 18, 18);
+    border: 0px solid rgb(18, 18, 18);
     border-radius: 2px;
     width: 207px;
     padding: 8px;
@@ -84,7 +100,7 @@ body{
     letter-spacing: 1px;
     font-weight: 1500;
     font-size: 50px;
-    color: #3b5998;
+    color: #1877f2;
     margin-left: 100px;
 }
 .left.box p{
@@ -94,5 +110,15 @@ body{
     margin-left: -200px;
 }
 footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
     background-color: white;
+}
+footer p{
+    font-size: 15px;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }

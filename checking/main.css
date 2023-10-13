@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.icon img{
+    width: 5%;
+}
+.navbar{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+.search{
+    display: block;
+    margin-left: -700px;
+    margin-right: 350px;
+}
+.search input{
+    padding: 9px;
+    border-radius: 25px;
+}
+.n-1{
+    list-style: none;
+}
+.n-1 li{
+    display: inline;
+    padding-right: 50px;
+}
+.n-1 li a{
+    text-decoration: none;
+    color: white;
+}
+.n-1 li a:hover{
+    
+}
+.container{
+    border: 2px solid white;
+    color: white;
+}
