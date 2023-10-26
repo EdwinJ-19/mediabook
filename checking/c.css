@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 10px 0 10px;
+}
+.rows{
+}
+.cols{
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto;
+}

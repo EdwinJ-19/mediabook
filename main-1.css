@@ -4,7 +4,7 @@
 }
 body{
     background-color: black;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: relative;
 }
 .navbar{
@@ -40,4 +40,108 @@ body{
 }
 .n-1 li a{
     color: rgb(185, 185, 185);
+}
+.container{
+    margin: 10px 10px 0 13px;
+}
+.container .card-1{
+    color: white;
+    border: 1px outset white;  /* rgb(87, 87, 87) */
+    display: inline-block;
+    /* margin: auto;
+    width: 450px; */
+}
+.card-1{
+    text-align: left;
+    width: 400px;
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.card-2{
+    border: 1px outset white;
+    display: inline-block;
+    color: white;
+    /* text-align: center; */
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.card-3{
+    border: 1px outset white;
+    display: inline-block;
+    color: white;
+    text-align: right;
+    float: right;
+    width: 400px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+/* .card-2{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.list-1 ul{
+    font-size: 20px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list-1 .sublist{
+    display: none;
+    padding: 0;
+    position: absolute;
+}
+.list-1 ul li .s-1:hover{
+    background-color: blue;
+}
+.list-1 ul li .s-1:hover ul.sublist{
+    display: block;
+    background-color: blue;
+}
+#sub-card{
+    position: relative;
+    padding: 20px;
+}
+#sub-card .image img{
+    padding-top: 20px;
+    block-size: 400px;
+}
+hr{
+    margin: auto;
+    width: 450px;
+    margin-top: 10px;
+    border: 0.5px solid white;
+}
+.button{
+    padding: 15px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.like-text{
+    font-size: 15px;
+    padding-left: 5px;
+}
+.head-dp{
+    display: flex;
+    align-items: center;
+}
+.head-dp a{
+    margin: -15px 0 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.head-dp img{ 
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    image-resolution: calc(100%);
+    /* padding-right: 10px; */
 }
