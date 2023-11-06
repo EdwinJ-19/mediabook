@@ -82,7 +82,7 @@ body{
     margin-top: 10px;
 }
 .card-2{
-    border: 1px outset white;
+    /* border: 1px outset white; */
     display: inline-block;
     color: white;
     /* text-align: center; */
@@ -107,10 +107,26 @@ body{
     align-items: center;
 } */
 .list-1 ul{
+    position: relative;
     font-size: 18px;
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.list-1 li{
+    margin-bottom: 10px;
+}
+.list-1 li img{
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+}
+.list-1 li a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding-top: 3px;
 }
 /* .list-1 .sublist{
     display: none;
@@ -125,11 +141,37 @@ body{
     background-color: blue;
 } */
 #sub-card{
+    border: 1px outset white;
     position: relative;
     padding: 20px;
 }
 #sub-card .image img{
     padding-top: 20px;
+    block-size: 400px;
+    padding-bottom: 10px;
+}
+#sub-card-1{
+    border: 1px outset white;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+}
+#sub-card-1 .image img{
+    padding-top: 20px;
+    block-size: 400px;
+    padding-bottom: 10px;
+    /* margin-left: 105px; */
+}
+#sub-card-2{
+    border: 1px outset white;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+}
+#sub-card-2 .image img{
+    margin-left: 105px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     block-size: 400px;
 }
 hr{
@@ -146,6 +188,20 @@ hr{
 .button a{
     text-decoration: none;
     color: white;
+}
+.button .fa-heart:hover{
+    color: red;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-2px);
+}
+.button .fa-comment:hover{
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-2px);
+}
+.button .fa-share-from-square:hover{
+    color: lightblue;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-2px);
 }
 .like-text{
     font-size: 15px;
