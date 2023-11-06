@@ -4,10 +4,11 @@
 }
 body{
     background-color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: relative;
 }
 .navbar{
+    /* position: fixed; */
     display: flex;
     align-items: center;
     /* justify-content: space-evenly; */
@@ -94,10 +95,10 @@ body{
     border: 1px outset white;
     display: inline-block;
     color: white;
-    text-align: right;
+    text-align: left;
     float: right;
     width: 400px;
-    padding-right: 20px;
+    padding-right: 10px;
     margin-top: 10px;
 }
 /* .card-2{
@@ -142,6 +143,7 @@ body{
 } */
 #sub-card{
     border: 1px outset white;
+    border-radius: 20px;
     position: relative;
     padding: 20px;
 }
@@ -152,6 +154,7 @@ body{
 }
 #sub-card-1{
     border: 1px outset white;
+    border-radius: 20px;
     position: relative;
     margin-top: 30px;
     padding: 20px;
@@ -164,21 +167,55 @@ body{
 }
 #sub-card-2{
     border: 1px outset white;
+    border-radius: 20px;
     position: relative;
     margin-top: 30px;
     padding: 20px;
 }
 #sub-card-2 .image img{
-    margin-left: 105px;
+    display: block;
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 10px;
     block-size: 400px;
 }
-hr{
+#sub-card-3{
+    border: 1px outset white;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+}
+#sub-card-3 .image img{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    block-size: 400px;
+}
+#sub-card-4{
+    border: 1px outset white;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+}
+#sub-card-4 .image img{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    block-size: 400px;
+}
+.card-2 hr{
     margin: auto;
     width: 450px;
     margin-top: 10px;
-    border: 0.5px solid white;
+    border: 1px;
+    border-style: solid none;
+    border-color: rgb(109, 109, 109);
+    /* border: none;
+    border: 0.1px double white; */
 }
 .button{
     padding: 15px 15px 10px 15px;
@@ -223,4 +260,43 @@ hr{
     height: 45px;
     image-resolution: calc(100%);
     /* padding-right: 10px; */
+}
+.card-3 hr{
+    margin: auto;
+    width: 370px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: solid none;
+    border-color: rgb(109, 109, 109);
+}
+.card-3 h4{
+    /* font-weight: ; */
+    color: rgb(150, 150, 150);
+    margin: 5px 0 10px 20px ;
+    /* margin-left: 10px;
+    margin-bottom: 10px; */
+}
+.sponsored .s-1 img{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.sponsored .s-1 p{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.sponsored .s-2{
+    margin-top: 10px;
+}
+.sponsored .s-2 img{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.sponsored .s-2 p{
+    position: relative;
+    display: flex;
+    align-items: center;
 }
