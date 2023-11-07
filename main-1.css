@@ -64,7 +64,7 @@ body{
 .profile a{
     color: rgb(185, 185, 185);
 }
-.profile:hover{
+.profile a:hover{
     border-radius: 10px;
     background-color: rgb(109, 109, 109);
     transition: 0.5s ease-in-out;
@@ -116,7 +116,6 @@ body{
     font-size: 18px;
     list-style: none;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 .list-1 li{
     margin-bottom: 10px;
@@ -128,7 +127,6 @@ body{
     width: 27px;
 }
 .list-1 li a{
-    position: absolute;
     text-decoration: none;
     color: white;
 }
