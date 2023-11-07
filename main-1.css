@@ -33,23 +33,28 @@ body{
 }
 .n-1{
     font-size: 20px;
-    margin-left: 20%;
+    margin-left: 15.5%;
     /* margin-right: 420px;    */
 }
 .n-1 li{
     list-style: none;
     display: inline-flex;
     margin-right: 75px;
+    align-items: center;
+    justify-content: center;
     /* padding-right: 75px; */
 }
 .n-1 li a{
     color: rgb(185, 185, 185);
 }
-.n-1 li:hover{
+.n-1 li a:hover{
     background-color: rgb(109, 109, 109);
     transition: 0.5s ease;
     border-radius: 10px;
-    padding: 7px 20px 7px 20px;
+}
+.n-1 .active{
+    background-color: rgb(109, 109, 109);
+    border-radius: 10px;
 }
 .profile {
     position: absolute;
@@ -60,7 +65,6 @@ body{
     color: rgb(185, 185, 185);
 }
 .profile:hover{
-    padding: 10px;
     border-radius: 10px;
     background-color: rgb(109, 109, 109);
     transition: 0.5s ease-in-out;
@@ -127,7 +131,6 @@ body{
     position: absolute;
     text-decoration: none;
     color: white;
-    padding-top: 3px;
 }
 /* .list-1 .sublist{
     display: none;
@@ -160,10 +163,11 @@ body{
     padding: 20px;
 }
 #sub-card-1 .image img{
+    display: block;
+    margin: auto;
     padding-top: 20px;
-    block-size: 400px;
     padding-bottom: 10px;
-    /* margin-left: 105px; */
+    block-size: 400px;
 }
 #sub-card-2{
     border: 1px outset white;
@@ -249,10 +253,17 @@ body{
     align-items: center;
 }
 .head-dp a{
-    margin: -15px 0 0 15px;
     text-decoration: none;
     color: white;
     font-size: 13px;
+    margin-top: -10px;
+    margin-left: 10.5%;
+    position: absolute;
+}
+.head-dp small{
+    margin-left: 1.65%;
+    margin-top: 4%;
+    font-size: 10px;
 }
 .head-dp img{ 
     border-radius: 50%;
@@ -266,7 +277,7 @@ body{
     width: 370px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px;
+    border-bottom: 1px;
     border-style: solid none;
     border-color: rgb(109, 109, 109);
 }
@@ -277,6 +288,10 @@ body{
     /* margin-left: 10px;
     margin-bottom: 10px; */
 }
+.sponsored{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .sponsored .s-1 img{
     width: 100px;
     margin-left: 20px;
@@ -286,6 +301,14 @@ body{
     position: relative;
     display: flex;
     align-items: center;
+}
+.sponsored .s-1 a{
+    text-decoration: none;
+    color: white;
+}
+.sponsored .s-1 a:hover{
+    transform: translateY(-2px);
+    transition: all 0.6s ease-in-out;
 }
 .sponsored .s-2{
     margin-top: 10px;
@@ -299,4 +322,74 @@ body{
     position: relative;
     display: flex;
     align-items: center;
+}
+.sponsored .s-2 a{
+    text-decoration: none;
+    color: white;
+}
+.sponsored .s-2 a:hover{
+    transform: translateY(-2px);
+    transition: all 0.6s ease-in-out;
+}
+.Pages .p-1{
+    position: relative;
+    margin-bottom: 30px;
+}
+.Pages .p-1 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.Pages .p-1 p{
+    margin-left: 75px;
+    margin-top: -35px;
+}
+.link{
+    display: flex;
+    margin-left: 20px;
+    /* margin-top: -12px; */
+    margin-bottom: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.link a:hover{
+    transform: translateY(-3px);
+    transition: all 0.7s ease-in-out;
+}
+.link a .fa-github:hover{
+    color: #6cc644;
+    transition: 0.7s ease-in-out;
+}
+.link a .fa-instagram:hover{
+    color: #C13584;
+    transition: 0.7s ease-in-out;
+}
+.link a .fa-linkedin:hover{
+    color: #0072b1;
+    transition: 0.7s ease-in-out;
+}
+.messagebox .m-2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/* .m-2{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+} */
+.m-2 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.m-2 a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-top: 14px;
+    margin-left: 10px; 
 }
