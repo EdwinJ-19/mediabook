@@ -74,7 +74,7 @@ body{
 }
 .container .card-1{
     color: white;
-    border: 1px outset white;  /* rgb(87, 87, 87) */
+    /* border: 1px outset white;  rgb(87, 87, 87) */
     display: inline-block;
     /* margin: auto;
     width: 450px; */
@@ -96,7 +96,7 @@ body{
     margin-top: 10px;
 }
 .card-3{
-    border: 1px outset white;
+    /* border: 1px outset white; */
     display: inline-block;
     color: white;
     text-align: left;
@@ -118,13 +118,13 @@ body{
     padding-top: 10px;
 }
 .list-1 li{
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .list-1 li img{
     margin-right: 10px;
     border-radius: 50%;
-    height: 27px;
-    width: 27px;
+    height: 45px;
+    width: 45px;
 }
 .list-1 li a{
     text-decoration: none;
